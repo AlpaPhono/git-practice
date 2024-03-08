@@ -42,7 +42,7 @@ jobs:
 
       # Executes script
       - name: change permissions script file
-        run: chmod +x
+        run: chmod +x script_name.sh
 
       - name: Run script   
       - run: script_name.sh
